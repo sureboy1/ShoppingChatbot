@@ -1,0 +1,20 @@
+name = input("What is your name ")
+#print("hello " + name)
+
+age=input("please enter your age ")
+
+hobby = input("what is your hobby ")
+
+print("your details are follow")
+print("name : ",name)
+print("age : ",age)
+print("hobby : ",hobby)
+print("Choose the department you wish to shop in")
+print("1. grocery")
+print("2. electronics")
+print("3. kitchen utensils")
+print("4. baby things")
+print("5. school supplies")
+choice = int(input())
+print("Thank you for shopping")
+print("you will be directed to your department")
